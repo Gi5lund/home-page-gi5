@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5bb8f5"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="url(#grad)"/>
+  <text x="5" y="43" font-family="Palatino, 'Palatino Linotype', 'Book Antiqua', serif" font-size="27" font-weight="700" font-style="italic" fill="#1a3a5c" letter-spacing="-1">Gi5</text>
+</svg>

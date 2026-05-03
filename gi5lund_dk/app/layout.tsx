@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="da" className="scroll-smooth">
-      <body className="bg-[#f8fafc] text-[#2c3e50] antialiased">
+    <html lang="da" >
+      <body className="text-[#2c3e50] antialiased">
         <Navbar />
-        <main className="pt-16">{children}</main>
+        <main className="fixed top-16 w-full bg-linear-to-b from-blue-300 via-cyan-200 to-teal-50 ">{children}</main>
       </body>
     </html>
   );

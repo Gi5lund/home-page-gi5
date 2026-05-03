@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+const config = {
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'gi-bg': '#F4F4F4',
+        'gi-bg': '#a4f4f4',
         'gi-sage': '#93A392',
         'gi-text': '#1A202C',
       },
@@ -15,3 +15,5 @@ export default {
   },
   plugins: [],
 };
+
+export default config;

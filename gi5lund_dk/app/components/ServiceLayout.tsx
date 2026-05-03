@@ -10,14 +10,17 @@ interface ServiceLayoutProps {
 
 export default function ServiceLayout({ title, subtitle, description, points, icon }: ServiceLayoutProps) {
   return (
-    <article className="min-h-screen pb-20">
+    <article className="min-h-screen pb-20 ">
       {/* 1. Subtil Hero Sektion */}
-      <header className="bg-white border-b border-slate-100 py-20">
-        <div className="max-w-4xl mx-auto px-6">
-          <Link href="/" className="text-sm font-medium text-slate-400 hover:text-gi-sage transition mb-8 inline-block">
+      <header className="bg-transparent ">
+        <div className="max-w-4xl mx-auto px-6 py-6">
+
+          <div className="text-4xl mb-4">{icon}
+            <Link href="/" className="text-sm font-medium text-slate-400 hover:text-gi-sage transition mb-8 inline-block">
             ← Tilbage til oversigten
           </Link>
-          <div className="text-4xl mb-4">{icon}</div>
+          </div>
+
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight">
             {title}
           </h1>

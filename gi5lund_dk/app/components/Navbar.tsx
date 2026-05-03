@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,20 +14,23 @@ export default function Navbar() {
 
   const navLinks = [
     { name: 'Forside', href: '/' },
-    { name: 'Ydelser', href: '/#ydelser' },
-    { name: 'Om mig', href: '/om-mig' },
+    { name: 'Ydelser', href: '/#services' },
+    { name: 'Om mig', href: '/brand' },
   ];
 
   return (
-    <div className='min-h-screen bg-gi-bg font-sans text-gi-dark'>
-<nav className="fixed w-full z-100 bg-white/70 backdrop-blur-md border-b border-slate-100">
-      <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+    <div className='min-h-screen  font-sans text-gi-dark'>
+      <nav className="bg-linear-to-b from-blue-300 to-sky-200  w-full z-100 fixed bg-white/70 backdrop-blur-md border-b border-slate-100">
+        <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
 
         {/* Logo */}
         <Link href="/" className="group flex items-center space-x-2">
-          <div className="w-8 h-8 bg-[#94a3b8] rounded-lg flex items-center justify-center text-white font-bold group-hover:bg-[#2c3e50] transition-colors">
-            G
-          </div>
+          <Image
+            src="/Gi5-square-nobg1.png"
+            alt="Gi5lund IT Logo"
+            width={96}
+            height={96}
+          />
           <span className="font-bold text-xl tracking-tight text-[#2c3e50]">
             Gi5lund IT
           </span>
@@ -39,7 +43,7 @@ export default function Navbar() {
               key={link.name}
               href={link.href}
               className={`text-sm font-medium transition-colors hover:text-[#94a3b8] ${
-                isActive(link.href) ? 'text-[#94a3b8]' : 'text-slate-600'
+                isActive(link.href) ? 'text-taupe-400' : 'text-mauve-800'
               }`}
             >
               {link.name}

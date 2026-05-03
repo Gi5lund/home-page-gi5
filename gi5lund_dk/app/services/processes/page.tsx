@@ -4,7 +4,7 @@ export default function ProcessesPage() {
   return (
     <ServiceLayout
       title="Udviklingsprocesser"
-      icon="🛠️"
+      icon="📋"
       subtitle="Strømlinede processer, der sikrer effektivitet og kvalitet i alle IT-projekter."
       points={[
         "Overblik over projektets faser",

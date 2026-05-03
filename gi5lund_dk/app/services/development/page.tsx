@@ -4,7 +4,7 @@ export default function DevelopmentPage() {
   return (
     <ServiceLayout
       title="Softwareudvikling"
-      icon="🛠️"
+      icon="</>"
       subtitle="Skræddersyede softwareløsninger, der driver din forretning fremad. Fra idé til implementering, jeg er med hele vejen."
       points={[
         "udvikling af brugerdefinerede applikationer og værktøjer",

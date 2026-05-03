@@ -9,10 +9,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="da" >
-      <body className="text-[#2c3e50] antialiased">
+    <html lang="da">
+      <body className="text-[#2c3e50] antialiased min-h-screen flex flex-col">
         <Navbar />
-        <main className="fixed top-16 w-full bg-linear-to-b from-blue-300 via-cyan-200 to-teal-50 ">{children}</main>
+        <main className="flex-1 pt-20 ">
+          {children}
+        </main>
       </body>
     </html>
   );

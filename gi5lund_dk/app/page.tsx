@@ -15,8 +15,8 @@ export default function Home() {
           Gi5lund IT
         </h1>
         <p className="relative z-10 text-base sm:text-lg text-slate-600 max-w-xs sm:max-w-md mx-auto mb-8 leading-relaxed">
-          Personlig IT-rådgivning og løsninger til din hverdag.
-          Vi skaber tryghed i din digitale infrastruktur.
+          Personlig IT-rådgivning og løsninger tilpasset din organisation og dine behov. <i>Let&apos;s keep it simple.</i>
+
         </p>
         <div className="relative z-10 h-1 w-12 bg-slate-400/50 rounded-full" />
       </section>
@@ -34,7 +34,7 @@ export default function Home() {
         <p className="text-sm text-slate-500 text-center mb-8">
           Hvad kan jeg hjælpe dig med?
         </p>
-        <div className="flex flex-col gap-4 sm:grid sm:grid-cols-3 sm:gap-6">
+        <div className="flex flex-col gap-4 sm:grid sm:grid-cols-3 sm:gap-6 ">
           <ServiceCard
             title="Support"
             desc="Hurtig og pålidelig hjælp til dine IT-udfordringer."
@@ -43,7 +43,7 @@ export default function Home() {
           />
           <ServiceCard
             title="Udvikling"
-            desc="Skræddersyede softwareløsninger der effektiviserer."
+            desc="Skræddersyede softwareløsninger der effektiviserer. vi gøre det komplekse simpelt."
             href="/services/development"
             icon="</>"
           />

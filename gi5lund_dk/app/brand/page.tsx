@@ -2,6 +2,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 export default function MyBrandPage() {
     return (
+        <>
+ <div className="fixed inset-0 -z-10 bg-gradient-to-b from-blue-300 via-cyan-200 to-teal-50"/>
         <div className="max-w-4xl mx-auto px-6 py-6">
             <div className="min-h-screen font-sans text-[#1A202C]">
                 <div className="text-right">
@@ -31,7 +33,7 @@ export default function MyBrandPage() {
 
             </div>
         </div>
-
-    );
+        </>
+);
 
 }

@@ -26,3 +26,10 @@ body {
   background-color: #a4f4f4;; /* gi-bg */
   color: #1A202C;            /* gi-text */
 }
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}

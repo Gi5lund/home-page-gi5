@@ -34,7 +34,7 @@ export default function Home() {
         <p className="text-sm text-slate-500 text-center mb-8">
           Hvad kan jeg hjælpe dig med?
         </p>
-        <div className="flex flex-col gap-4 sm:grid sm:grid-cols-3 sm:gap-6">
+        <div className="flex flex-col gap-4 sm:grid sm:grid-cols-3 sm:gap-6 ">
           <ServiceCard
             title="Support"
             desc="Hurtig og pålidelig hjælp til dine IT-udfordringer."
@@ -43,7 +43,7 @@ export default function Home() {
           />
           <ServiceCard
             title="Udvikling"
-            desc="Skræddersyede softwareløsninger der effektiviserer."
+            desc="Skræddersyede softwareløsninger der effektiviserer. vi gøre det komplekse simpelt."
             href="/services/development"
             icon="</>"
           />

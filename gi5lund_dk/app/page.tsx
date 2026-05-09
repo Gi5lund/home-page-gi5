@@ -15,8 +15,8 @@ export default function Home() {
           Gi5lund IT
         </h1>
         <p className="relative z-10 text-base sm:text-lg text-slate-600 max-w-xs sm:max-w-md mx-auto mb-8 leading-relaxed">
-          Personlig IT-rådgivning og løsninger til din hverdag.
-          Vi skaber tryghed i din digitale infrastruktur.
+          Personlig IT-rådgivning og løsninger tilpasset din organisation og dine behov. <i>Let&apos;s keep it simple.</i>
+
         </p>
         <div className="relative z-10 h-1 w-12 bg-slate-400/50 rounded-full" />
       </section>
